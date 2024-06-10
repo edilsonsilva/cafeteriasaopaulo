@@ -103,3 +103,53 @@ footer #rede li{
     display: inline-block;
     margin-right: 10px;
 }
+
+/* ---------------  formatação da página index --------------- */
+main h2{
+    font-family: "Lobster", sans-serif;
+    margin:50px;
+    font-size: 20pt;
+    color: rgb(207, 28, 22);
+}
+
+main #home p{
+    font-family: arial;
+    margin: 0px 50px 30px 50px;
+    text-align: justify;/*alinhar dos dois lados*/
+    font-size: 12pt;
+    /* O comando line-height define a altura da 
+    linha(espaçamento entre linhas). Estamos
+    usando uma altura de 1,5, ou seja, o tamanho
+    da fonte mais meio do tamanho da fonte */
+    line-height: 18pt ;
+}
+
+main #imghome img{
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    /* arredondar os cantos da imagem */
+    border-radius: 50%;
+    /* Vamos aplicar um efeito de 
+    transparência a imagem, usando
+    o comando opacity que varia entre
+    0 e 1, ou seja, se você aplicar
+    0.6, significa que está usando
+    60% de opacidade. Isto representa
+    60% de visibilidade */
+    opacity: 0.6;
+    /* O comando transition pode realizar uma 
+    animação de transição, que você pode
+    configurar o tipo de transição e o 
+    tempo da transição */
+    transition: ease 1s;
+
+}
+
+main #imghome img:hover{
+    opacity: 1;
+}
+
+main #imghome{
+    text-align: center;
+}
