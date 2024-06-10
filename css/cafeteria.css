@@ -153,3 +153,40 @@ main #imghome img:hover{
 main #imghome{
     text-align: center;
 }
+
+/* -------------------- formatação da página cardapio -------------- */
+main #categoriacardapio{
+    width: 80%;
+    /* vamos centralizar a caixa categoria
+    modificando a margem da esquerda e da 
+    direita como auto de automático */
+    margin-left: auto;
+    margin-right: auto;
+    /* aplicar a disposição flex para 
+    deixar as imagens uma ao lado da outra */
+    display: flex;
+    /* alinhar o conteudo ao centro */
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.itemcardapio img{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    display: block;
+    box-shadow: 0px 0px 10px red;
+    margin-bottom: 5px;
+   
+}
+
+.itemcardapio{
+    text-align: center;
+    margin:5px
+}
+
+.itemcardapio a{
+    font-family: arial;
+    text-decoration: none;
+    color:black;
+}
