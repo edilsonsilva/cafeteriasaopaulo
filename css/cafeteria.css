@@ -251,3 +251,13 @@ main p{
     height: 400px;
     margin:50px;
 }
+
+#mapa{
+    text-align: center;
+}
+
+#mapa iframe{
+    width: 92%;
+    height: 600px;
+    margin: 50px;
+}
