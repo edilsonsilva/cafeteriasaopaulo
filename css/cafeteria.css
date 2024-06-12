@@ -11,6 +11,10 @@ da página. Margens externas e internas */
     box-sizing: border-box;
    
 }
+html{
+    scroll-behavior: smooth;
+}
+
 
 /* Vamos adicionar uma imagem ao fundo do header */
 header{
@@ -189,4 +193,40 @@ main #categoriacardapio{
     font-family: arial;
     text-decoration: none;
     color:black;
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.item{
+    width: 31%;
+    display: flex;
+    margin: 10px;
+}
+
+.item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.item div h3 {
+    font-family: arial;
+    font-size:12pt;
+    margin:5px;
+}
+.item div p{
+    font-family: arial;
+    margin: 5px;
+    font-size: 10pt;
+    line-height: 15pt;
+}
+
+#cafes h2{
+    font-size:40pt;
+    margin-left: 200px;
 }
