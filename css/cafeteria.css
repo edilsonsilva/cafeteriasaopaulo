@@ -261,3 +261,51 @@ main p{
     height: 600px;
     margin: 50px;
 }
+
+/* ----------------- contato ---------------- */
+form{
+    /* border:4px solid red; */
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-shadow: 0px 10px 5px silver;
+}
+input[type=text], 
+input[type=tel], 
+input[type=email],
+select {
+    display: block;
+    width: 100%;
+    padding:10px;
+    margin-bottom: 5px;
+    border: 0;
+    /* retira a borda ativa do input */
+    outline: none;
+    border-bottom: 1px solid silver;
+}
+
+select{
+    width: 50%;
+}
+textarea{
+    width: 100%;
+    height:200px;
+    outline-color: magenta;
+    /* bloquea o redimensionamento da textarea */
+    resize: none;
+}
+form span{
+    font-family: arial;
+}
+input[type=submit]{
+    padding:10px 30px;
+    border: 0;
+    background-color: #641a04;
+    color:white;
+    /* mouse vira uma mão(apontador) */
+    cursor: pointer;
+    display: block;
+    margin:20px auto 20px auto;
+}

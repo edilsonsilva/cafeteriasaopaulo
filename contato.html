@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria São Paulo</title>
     <link rel="stylesheet" href="css/cafeteria.css">
 </head>
+
 <body>
     <header>
-        
+
 
         <!-- Criar a estrutura de links usando
         uma lista não ordenada -->
         <nav>
-        <!-- Vamos usar a tag h1 para definir
+            <!-- Vamos usar a tag h1 para definir
         o título do nosso site. A tag h1 deve aparecer
         apenas uma vez na página -->
-        <h1>Cafeteria São Paulo</h1>
+            <h1>Cafeteria São Paulo</h1>
             <ul>
                 <li><a href="index.html"> home </a></li>
                 <li><a href="cardapio.html"> cardápio </a></li>
@@ -26,13 +28,39 @@
             </ul>
         </nav>
 
-        
+
         <h2>Venha conheçer nossa cafeteria</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione numquam corrupti repellat natus maxime. Ut rerum soluta magnam sequi? Nam dolores, est exercitationem similique repellat consequatur sit aut ullam in?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione numquam corrupti repellat natus maxime. Ut
+            rerum soluta magnam sequi? Nam dolores, est exercitationem similique repellat consequatur sit aut ullam in?
+        </p>
 
     </header>
 
-    <main></main>
+    <main>
+
+        <h2>Entre em contato</h2>
+        <form action="">
+            <input type="text" placeholder="Nome Completo" required>
+            <input type="tel" placeholder="Telefone" required maxlength="11">
+            <input type="email" placeholder="E-Mail">
+            <select name="" id="">
+                <option value="Selecione"> Selecione um assunto </option>
+                <option value="Sugestão"> Sugestão </option>
+                <option value="Reclamação"> Reclamação </option>
+                <option value="Elogio"> Elogio </option>
+                <option value="Dúvida"> Dúvida </option>
+                <option value="Solicitação"> Solicitação </option>
+            </select>
+            <textarea></textarea>
+
+            <span><input type="checkbox"> Desejo receber notícias</span>
+
+
+            <input type="submit" value="Enviar">
+        </form>
+
+
+    </main>
 
 
     <footer>
@@ -44,7 +72,7 @@
         <div id="rede">
             <ul>
                 <li>
-                    <a href="https://www.facebook.com" target="_blank" >
+                    <a href="https://www.facebook.com" target="_blank">
                         <img src="img/facebook.png" alt="Acesse nossa página do facebook">
                     </a>
                 </li>
@@ -66,4 +94,5 @@
 
 
 </body>
+
 </html>
